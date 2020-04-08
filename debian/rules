@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+DESTDIR = $(CURDIR)/debian/amqp-cpp
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	make install PREFIX=$(DESTDIR)/usr

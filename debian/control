@@ -1,0 +1,11 @@
+Source: amqp-cpp
+Maintainer: Zoltan Szabo <info@borzalom.hu>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Section: utils
+
+Package: amqp-cpp
+Priority: extra  
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}  
+Description: amqp-cpp library
